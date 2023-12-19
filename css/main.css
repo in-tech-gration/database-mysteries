@@ -134,3 +134,9 @@ sql-exercise .sqlExInputArea input {
 #experienced-schema.show {
     display: block;
 }
+
+/* V2 */
+
+sql-exercise {
+  color: black;
+}
