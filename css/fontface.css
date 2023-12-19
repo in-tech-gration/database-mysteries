@@ -1,0 +1,148 @@
+/* This CSS resource incorporates links to font software which is the
+   valuable copyrighted property of Type Network, Inc. and/or their
+   suppliers. You may not attempt to copy, install, redistribute,
+   convert, modify or reverse engineer this font software. Please
+   contact Type Network with any questions: www.typenetwork.com */
+
+  
+@font-face {
+font-family: "Apres RE Bd It";
+font-weight: normal; 
+font-style: italic; 
+font-display: swap; 
+
+
+src: url("//fastly-cloud.typenetwork.com/projects/5433/d3_vdef_baa6e6f83f_6b73.woff2?a39a9c83c035d53f6afa90d438906cd863208ae8") format("woff2"),
+     url("//fastly-cloud.typenetwork.com/projects/5433/d3_vdef_baa6e6f83f_6b73.woff?a39a9c83c035d53f6afa90d438906cd863208ae8") format("woff");
+
+}
+		
+	 
+@font-face {
+font-family: "Apres RE It";
+font-weight: normal; 
+font-style: italic; 
+font-display: swap; 
+
+
+src: url("//fastly-cloud.typenetwork.com/projects/5433/d1_vdef_baa6e6f83f_6b71.woff2?a39a9c83c035d53f6afa90d438906cd863208ae8") format("woff2"),
+     url("//fastly-cloud.typenetwork.com/projects/5433/d1_vdef_baa6e6f83f_6b71.woff?a39a9c83c035d53f6afa90d438906cd863208ae8") format("woff");
+
+}
+		
+	 
+@font-face {
+font-family: "Apres RE Bd";
+font-weight: normal; 
+font-style: normal; 
+font-display: swap; 
+
+
+src: url("//fastly-cloud.typenetwork.com/projects/5433/d2_vdef_baa6e6f83f_6b72.woff2?a39a9c83c035d53f6afa90d438906cd863208ae8") format("woff2"),
+     url("//fastly-cloud.typenetwork.com/projects/5433/d2_vdef_baa6e6f83f_6b72.woff?a39a9c83c035d53f6afa90d438906cd863208ae8") format("woff");
+
+}
+		
+	 
+@font-face {
+font-family: "Turnip RE Bd It";
+font-weight: normal; 
+font-style: italic; 
+font-display: swap; 
+
+
+src: url("//fastly-cloud.typenetwork.com/projects/5433/7b1_vdef_baa6e6f83f_6b6f.woff2?a39a9c83c035d53f6afa90d438906cd863208ae8") format("woff2"),
+     url("//fastly-cloud.typenetwork.com/projects/5433/7b1_vdef_baa6e6f83f_6b6f.woff?a39a9c83c035d53f6afa90d438906cd863208ae8") format("woff");
+
+}
+		
+	 
+@font-face {
+font-family: "Turnip RE It";
+font-weight: normal; 
+font-style: italic; 
+font-display: swap; 
+
+
+src: url("//fastly-cloud.typenetwork.com/projects/5433/7af_vdef_baa6e6f83f_6b6d.woff2?a39a9c83c035d53f6afa90d438906cd863208ae8") format("woff2"),
+     url("//fastly-cloud.typenetwork.com/projects/5433/7af_vdef_baa6e6f83f_6b6d.woff?a39a9c83c035d53f6afa90d438906cd863208ae8") format("woff");
+
+}
+		
+	 
+@font-face {
+font-family: "Salvo Serif Cond";
+font-weight: normal; 
+font-style: normal; 
+font-display: swap; 
+
+
+src: url("//fastly-cloud.typenetwork.com/projects/5433/691_vdef_baa6e6f83f_6b77.woff2?a39a9c83c035d53f6afa90d438906cd863208ae8") format("woff2"),
+     url("//fastly-cloud.typenetwork.com/projects/5433/691_vdef_baa6e6f83f_6b77.woff?a39a9c83c035d53f6afa90d438906cd863208ae8") format("woff");
+
+}
+		
+	 
+@font-face {
+font-family: "Apres RE";
+font-weight: normal; 
+font-style: normal; 
+font-display: swap; 
+
+
+src: url("//fastly-cloud.typenetwork.com/projects/5433/d0_vdef_baa6e6f83f_6b70.woff2?a39a9c83c035d53f6afa90d438906cd863208ae8") format("woff2"),
+     url("//fastly-cloud.typenetwork.com/projects/5433/d0_vdef_baa6e6f83f_6b70.woff?a39a9c83c035d53f6afa90d438906cd863208ae8") format("woff");
+
+}
+		
+	 
+@font-face {
+font-family: "Turnip RE Bd";
+font-weight: normal; 
+font-style: normal; 
+font-display: swap; 
+
+
+src: url("//fastly-cloud.typenetwork.com/projects/5433/7b0_vdef_baa6e6f83f_6b6e.woff2?a39a9c83c035d53f6afa90d438906cd863208ae8") format("woff2"),
+     url("//fastly-cloud.typenetwork.com/projects/5433/7b0_vdef_baa6e6f83f_6b6e.woff?a39a9c83c035d53f6afa90d438906cd863208ae8") format("woff");
+
+}
+		
+	 
+@font-face {
+font-family: "Turnip RE";
+font-weight: normal; 
+font-style: normal; 
+font-display: swap; 
+
+
+src: url("//fastly-cloud.typenetwork.com/projects/5433/7ae_vdef_baa6e6f83f_6b6c.woff2?a39a9c83c035d53f6afa90d438906cd863208ae8") format("woff2"),
+     url("//fastly-cloud.typenetwork.com/projects/5433/7ae_vdef_baa6e6f83f_6b6c.woff?a39a9c83c035d53f6afa90d438906cd863208ae8") format("woff");
+
+}
+		
+	 
+@font-face {
+font-family: "Salvo Serif Cond Lt";
+font-weight: normal; 
+font-style: normal; 
+font-display: swap; 
+
+
+src: url("//fastly-cloud.typenetwork.com/projects/5433/68f_vdef_baa6e6f83f_6b75.woff2?a39a9c83c035d53f6afa90d438906cd863208ae8") format("woff2"),
+     url("//fastly-cloud.typenetwork.com/projects/5433/68f_vdef_baa6e6f83f_6b75.woff?a39a9c83c035d53f6afa90d438906cd863208ae8") format("woff");
+
+}
+		
+	 
+@font-face {
+font-family: "Salvo Serif Cond Bd";
+font-weight: normal; 
+font-style: normal; 
+font-display: swap; 
+
+
+src: url("//fastly-cloud.typenetwork.com/projects/5433/695_vdef_baa6e6f83f_6b74.woff2?a39a9c83c035d53f6afa90d438906cd863208ae8") format("woff2"),
+     url("//fastly-cloud.typenetwork.com/projects/5433/695_vdef_baa6e6f83f_6b74.woff?a39a9c83c035d53f6afa90d438906cd863208ae8") format("woff");
+
+}

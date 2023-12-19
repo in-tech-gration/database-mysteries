@@ -244,7 +244,7 @@ class sqlExercise extends HTMLElement {
       lineNumbers: true,
       textWrapping: false,
       autoRefresh: true,
-      theme: 'neat',
+      theme: 'vibrant-ink', // 'xq-dark', 'vibrant-ink', 'night', 'material-palenight', 'cobalt', 'dracula'
       viewportMargin: Infinity
     });
 

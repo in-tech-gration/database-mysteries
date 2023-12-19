@@ -1,7 +1,11 @@
+.hidden {
+  display: none;
+}
+
 /* datatable */
 
 .datatable {
-    border: solid 1px grey;
+    border: solid 2px limegreen;
     border-collapse: collapse;
     font-size: 16px;
 }
@@ -13,8 +17,10 @@ td {
 }
 
 .datatable thead {
-    background: lightgrey;
     font-weight: bold;
+    background: limegreen;
+    color: black;
+    text-align: center;
 }
 
 
@@ -78,17 +84,20 @@ sql-quiz .sqlQuizOutputArea .returnOkay {
 sql-exercise .sqlExHomeDiv {
     margin: 1em 0em;
     font-family: Roboto, sans-serif;
-    background: #f9f9f9;
-    padding: 6px;
     border-radius: 6px;
-}
+    background: black;
+    color: #4cf79e;
+    padding: 1rem;
+ }
 
 sql-exercise .sqlExQuestion {
-    font-weight: 700;
+  font-weight: 700;
+  margin-bottom: 1rem;
 }
 
 sql-exercise .sqlExComment {
-    font-weight: 200;
+  font-weight: 200;
+  margin-bottom: 2rem;
 }
 
 sql-exercise form {
@@ -99,11 +108,17 @@ sql-exercise .sqlExInputArea {
     line-height: 130%;
     min-width: 100%;
 }
-
+sql-exercise .sqlExOutputArea output {
+  display: block;
+}
 sql-exercise .sqlExOutputArea {
-    max-width: 52rem;
     overflow: auto;
-    background: #f9f9f9;
+    background: black;
+    color: white;
+}
+sql-exercise .sqlExOutputArea table tbody tr td {
+  font-size: 0.85em;
+  font-size: 1rem;
 }
 
 sql-exercise .sqlExOutputArea .returnOkay {
@@ -121,10 +136,16 @@ sql-exercise .CodeMirror {
 
 sql-exercise .sqlExInputArea input {
     margin-right: 1em;
-    background: none;
+    background: white;
     border-radius: 4px;
     font-size: 0.8em;
     font-weight: 200;
+    border: none;
+    padding: 0.6rem 3rem;
+}
+sql-exercise .sqlExInputArea input:hover {
+    background: limegreen;
+    color: black;
 }
 
 #experienced-schema {
@@ -139,4 +160,19 @@ sql-exercise .sqlExInputArea input {
 
 sql-exercise {
   color: black;
+}
+
+sql-exercise .sqlExInputArea {
+  line-height: 130%;
+  min-width: 100%;
+}
+
+code {
+  background-color: limegreen;
+  color: black;
+}
+
+.sqlExInputArea .CodeMirror {
+  border: 2px solid #4cf79e;
+  margin-bottom: 2rem;
 }
