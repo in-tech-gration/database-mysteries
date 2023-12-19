@@ -64,4 +64,6 @@
 
   SQL query custom web components used here were adapted from code created and released to the public domain by Zi Chong Kao, creator of [Select Star SQL](https://selectstarsql.com/).
 
-  [Detective image by rambleron](https://www.vecteezy.com/vector-art/174092-clue-illustration) used under Vecteezy's free license.
+  [Detective images by Midjourney](https://www.midjourney.com)
+
+  [Music by Mixkit](https://mixkit.co/)
