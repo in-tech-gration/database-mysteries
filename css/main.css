@@ -1,7 +1,32 @@
+:root {
+  --vibrant: #4cf79e;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1.2rem;
+}
+
+.hidden {
+  display: none;
+}
+.my-1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.my-2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+h1.product-logo.product-logo-large {
+  text-shadow: 0 0 8px;
+}
+
 /* datatable */
 
 .datatable {
-    border: solid 1px grey;
+    border: solid 2px var(--vibrant);
     border-collapse: collapse;
     font-size: 16px;
 }
@@ -13,8 +38,10 @@ td {
 }
 
 .datatable thead {
-    background: lightgrey;
     font-weight: bold;
+    background: var(--vibrant);
+    color: black;
+    text-align: center;
 }
 
 
@@ -78,17 +105,20 @@ sql-quiz .sqlQuizOutputArea .returnOkay {
 sql-exercise .sqlExHomeDiv {
     margin: 1em 0em;
     font-family: Roboto, sans-serif;
-    background: #f9f9f9;
-    padding: 6px;
     border-radius: 6px;
-}
+    background: black;
+    color: var(--vibrant);
+    padding: 1rem;
+ }
 
 sql-exercise .sqlExQuestion {
-    font-weight: 700;
+  font-weight: 700;
+  margin-bottom: 1rem;
 }
 
 sql-exercise .sqlExComment {
-    font-weight: 200;
+  font-weight: 200;
+  margin-bottom: 2rem;
 }
 
 sql-exercise form {
@@ -99,11 +129,17 @@ sql-exercise .sqlExInputArea {
     line-height: 130%;
     min-width: 100%;
 }
-
+sql-exercise .sqlExOutputArea output {
+  display: block;
+}
 sql-exercise .sqlExOutputArea {
-    max-width: 52rem;
     overflow: auto;
-    background: #f9f9f9;
+    background: black;
+    color: white;
+}
+sql-exercise .sqlExOutputArea table tbody tr td {
+  font-size: 0.85em;
+  font-size: 1rem;
 }
 
 sql-exercise .sqlExOutputArea .returnOkay {
@@ -121,10 +157,20 @@ sql-exercise .CodeMirror {
 
 sql-exercise .sqlExInputArea input {
     margin-right: 1em;
-    background: none;
     border-radius: 4px;
     font-size: 0.8em;
-    font-weight: 200;
+    border: none;
+    padding: 0.6rem 3rem;
+
+    background: var(--vibrant);
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+sql-exercise .sqlExInputArea input:hover {
+    background: white;
+    color: black;
 }
 
 #experienced-schema {
@@ -133,4 +179,35 @@ sql-exercise .sqlExInputArea input {
 
 #experienced-schema.show {
     display: block;
+}
+
+/* V2 */
+
+sql-exercise {
+  color: black;
+}
+
+sql-exercise .sqlExInputArea {
+  line-height: 130%;
+  min-width: 100%;
+}
+
+code {
+  background-color: var(--vibrant);
+  color: black;
+}
+
+.sqlExInputArea .CodeMirror {
+  border: 2px solid var(--vibrant);
+  margin-bottom: 2rem;
+}
+
+#audio-container {
+  text-align: center;
+}
+#audio-container audio {
+  min-width: 80%
+}
+audio::-webkit-media-controls-panel {
+  background: var(--vibrant);
 }
