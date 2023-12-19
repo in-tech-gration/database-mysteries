@@ -79,7 +79,7 @@
 
         <div id="intro" class="grid">
             <div class="grid-item">
-                <img src="img/detective.png" class="img-rounded" alt="A decorative illustration of a detective looking at an evidence board.">
+                <img src="img/captain.png" class="img-rounded" alt="A decorative illustration of a detective looking at an evidence board.">
                 <p>
                     There's been a Murder in SQL City! The SQL Murder Mystery is designed to be both a self-directed lesson to learn SQL concepts and commands and a fun game for experienced SQL users to solve an intriguing crime.
                 </p>
@@ -155,7 +155,7 @@
                   </p>
                   <p>Here is the ERD for our database:
                   </p>
-                  <img src="schema.png" width='1002' height='491'>
+                  <img src="img/schema.png" width='1002' height='491'>
               </div>
           </div>
   
@@ -380,7 +380,11 @@
 
         <div class="grid">
             <div class="grid-item">
-                <h2 id="experienced">Experienced SQL sleuths start here</h2>
+              
+              <h2 id="experienced" class="my-2">Experienced SQL sleuths start here</h2>
+
+              <img src="img/detective.png" class="img-rounded" alt="A decorative illustration of a detective looking at an evidence board.">
+
                 <p>
                     A crime has taken place and the detective needs your help. The detective gave you the crime scene report, but you somehow lost it. You vaguely remember that the crime was a <strong>​murder​</strong> that occurred sometime on ​<strong>Jan.15, 2018​</strong>                    and that it took place in ​<strong>SQL City​</strong>. Start by retrieving the corresponding crime scene report from the police department’s database.
                 </p>
@@ -412,11 +416,16 @@
             <div class="grid-item">
                 <h3>The rest is up to you!</h3>
                 <p>
-                    If you're really comfortable with SQL, you can probably get it from here.
+                    If you're really comfortable with SQL, you can probably get it from here. We've also included some atmospheric music to get you into the mood! Press the play button and start the challenge.
                 </p>
+
+                <p id="audio-container">
+                  <audio src="assets/mixkit-piano-horror-671.mp3" controls loop></audio>
+                </p>
+
                 <p>
                     But <a id="show-schema">click here</a> to show the schema diagram.
-                    <img id="experienced-schema" src="schema.png" width='1002' height='491'>
+                    <img id="experienced-schema" src="img/schema.png" width='1002' height='491'>
                 </p>
 
                 <sql-exercise data-question="Use your knowledge of the database schema and SQL commands to find out who committed the murder." data-comment="It will take more than one query to find the killer, but you can just keep editing this box, keeping notes on your results along the way. When you think you know the answer, go to the next section ('Check your solution')." data-default-text="

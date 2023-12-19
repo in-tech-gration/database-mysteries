@@ -1,11 +1,32 @@
+:root {
+  --vibrant: #4cf79e;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1.2rem;
+}
+
 .hidden {
   display: none;
+}
+.my-1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.my-2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+h1.product-logo.product-logo-large {
+  text-shadow: 0 0 8px;
 }
 
 /* datatable */
 
 .datatable {
-    border: solid 2px limegreen;
+    border: solid 2px var(--vibrant);
     border-collapse: collapse;
     font-size: 16px;
 }
@@ -18,7 +39,7 @@ td {
 
 .datatable thead {
     font-weight: bold;
-    background: limegreen;
+    background: var(--vibrant);
     color: black;
     text-align: center;
 }
@@ -86,7 +107,7 @@ sql-exercise .sqlExHomeDiv {
     font-family: Roboto, sans-serif;
     border-radius: 6px;
     background: black;
-    color: #4cf79e;
+    color: var(--vibrant);
     padding: 1rem;
  }
 
@@ -136,15 +157,19 @@ sql-exercise .CodeMirror {
 
 sql-exercise .sqlExInputArea input {
     margin-right: 1em;
-    background: white;
     border-radius: 4px;
     font-size: 0.8em;
-    font-weight: 200;
     border: none;
     padding: 0.6rem 3rem;
+
+    background: var(--vibrant);
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+
 }
 sql-exercise .sqlExInputArea input:hover {
-    background: limegreen;
+    background: white;
     color: black;
 }
 
@@ -168,11 +193,21 @@ sql-exercise .sqlExInputArea {
 }
 
 code {
-  background-color: limegreen;
+  background-color: var(--vibrant);
   color: black;
 }
 
 .sqlExInputArea .CodeMirror {
-  border: 2px solid #4cf79e;
+  border: 2px solid var(--vibrant);
   margin-bottom: 2rem;
+}
+
+#audio-container {
+  text-align: center;
+}
+#audio-container audio {
+  min-width: 80%
+}
+audio::-webkit-media-controls-panel {
+  background: var(--vibrant);
 }
