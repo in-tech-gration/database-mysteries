@@ -43,6 +43,12 @@
   SELECT value FROM solution;
   ```
 
+## Todo
+
+  - Create `NoSQL` version
+
+  - Integrate [SQLite Viewer](https://github.com/in-tech-gration/sqlite-viewer)
+
 ## Authors
 
   * [Kostas Minaidis](https://github.com/kostasx)
