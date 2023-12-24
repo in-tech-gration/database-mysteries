@@ -1,10 +1,10 @@
 # Database Murder Mystery
 
-  ![Illustration of a detective looking at evidence](img/detective.png)
+  [![Illustration of a detective looking at evidence](img/detective.png)](https://in-tech-gration.github.io/database-mysteries/)
 
   There's been a Murder in SQL City! The SQL Murder Mystery is designed to be both a self-directed lesson to learn SQL concepts and commands and a fun game for experienced SQL users to solve an intriguing crime.
 
-  If you just want to solve the mystery, go to [mystery.knightlab.com](https://mystery.knightlab.com). If you're new to SQL, you may want to start at [our walkthrough](https://mystery.knightlab.com/walkthrough.html). It won't teach you everything about SQL, but it should teach you all that you need to solve the mystery.  
+  If you just want to solve the mystery, go to [https://in-tech-gration.github.io/database-mysteries/](https://in-tech-gration.github.io/database-mysteries/).  
 
 ## What Else is Here?
 
@@ -70,4 +70,6 @@
 
   SQL query custom web components used here were adapted from code created and released to the public domain by Zi Chong Kao, creator of [Select Star SQL](https://selectstarsql.com/).
 
-  [Detective image by rambleron](https://www.vecteezy.com/vector-art/174092-clue-illustration) used under Vecteezy's free license.
+  [Detective images by Midjourney](https://www.midjourney.com)
+
+  [Music by Mixkit](https://mixkit.co/)
